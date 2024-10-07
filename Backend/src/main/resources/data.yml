@@ -1,0 +1,20 @@
+# Wörter die Verboten sind!
+forbidden:
+  - system
+  - owner
+  - admin
+  - mod
+
+# Neue User Data
+userData:
+  admin:
+    displayName: \[GOD\]
+    password: nimda
+    color: #131313
+
+
+# Message Data
+messages:
+  0:
+    author: System
+    message: This is the System

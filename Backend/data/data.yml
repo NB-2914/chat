@@ -1,0 +1,134 @@
+# Wörter die Verboten sind!
+forbidden:
+- system
+- owner
+- admin
+- mod
+
+# Neue User Data
+# Sybit Color: B51783
+userData:
+  system:
+    displayName: \[THE_SYSTEM]/
+    password: TOHARDTOFIND
+    color: B51783
+  admin:
+    displayName: \[ADMIN]/
+    password: nimda
+    color: 00ff00
+    permission: ban
+  tfj:
+    displayName: -OWNER-TFJ-
+    password: ownerPass
+    color: FFF313
+    permission: ban
+  niklas:
+    displayName: -OWNER-NIKLAS-
+    password: ownerPass
+    color: FFF313
+    permission: ban
+  user:
+    displayName: user
+    password: asddf
+    color: 151A15
+  hallo:
+    displayName: hallo
+    password: hallo
+    color: 29C539
+  test:
+    displayName: test
+    password: user
+    color: 151A15
+  sasd:
+    displayName: sasd
+    password: asda
+    color: 151A15
+  sadasdd:
+    displayName: Niklas
+    password: asdassd
+    color: 151A15
+
+
+# Message Data
+messages:
+  '0':
+    author: system
+    message: This is the System
+  '1':
+    author: tfj
+    message: '1.'
+  '2':
+    author: tfj
+    message: '2.'
+  '3':
+    author: tfj
+    message: '3.'
+  '4':
+    author: admin
+    message: s
+  '5':
+    author: admin
+    message: s
+  '6':
+    author: admin
+    message: s
+  '7':
+    author: admin
+    message: s
+  '8':
+    author: admin
+    message: s
+  '9':
+    author: admin
+    message: s
+  '10':
+    author: admin
+    message: s
+  '11':
+    author: admin
+    message: s
+  '12':
+    author: admin
+    message: s
+  '13':
+    author: admin
+    message: s
+  '14':
+    author: admin
+    message: w
+  '15':
+    author: admin
+    message: e
+  '16':
+    author: admin
+    message: a
+  '17':
+    author: admin
+    message: t
+  '18':
+    author: admin
+    message: f
+  '19':
+    author: admin
+    message: s
+  '20':
+    author: admin
+    message: w
+  '21':
+    author: admin
+    message: a
+  '22':
+    author: admin
+    message: d
+  '23':
+    author: admin
+    message: f
+  '24':
+    author: admin
+    message: wa
+  '25':
+    author: admin
+    message: w
+  '26':
+    author: admin
+    message: hallo
