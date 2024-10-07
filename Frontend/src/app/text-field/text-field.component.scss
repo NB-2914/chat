@@ -1,0 +1,29 @@
+div {
+    width: 70vw;
+    height: 70vh;
+    padding: 20px;
+    border: 2px solid gray;
+    margin: 25px;
+    border-radius: 12px;
+
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
+}
+td{
+    font-size: large;
+    padding:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.author{
+    width:min-content;
+}
+h2{
+    padding-right: auto;
+    padding-left: auto;
+}
+
+
+div > table> tbody > tr:last-child{
+    scroll-snap-align: end;
+}

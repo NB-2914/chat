@@ -1,0 +1,15 @@
+ <h2>Benutzer:    {{ benutzer }}</h2>
+
+
+<div id="container">
+    <table>
+        <tbody>
+            <tr *ngFor="let message of messages;">
+                <td id="author"  ><span>[</span><span [style]="'color:#' + message.color" >{{ message.author }}</span><span>]</span></td>
+                <td >{{ message.message }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- [(ngStyle)]="'color': {{message.color}} " --> 
