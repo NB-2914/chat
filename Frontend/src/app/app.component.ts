@@ -8,10 +8,11 @@ import { CommonModule } from '@angular/common';
 import { RegistrierenComponent } from './registrieren/registrieren.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorComponent } from './error/error.component';
+import { ChatComponent } from "./chat/chat.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ErrorComponent,TextInputComponent,NavbarComponent ,TextFieldComponent, ReloadComponent, AnmeldenComponent, RegistrierenComponent, CommonModule],
+  imports: [RouterOutlet, ErrorComponent, TextInputComponent, NavbarComponent, TextFieldComponent, ReloadComponent, AnmeldenComponent, RegistrierenComponent, CommonModule, ChatComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
